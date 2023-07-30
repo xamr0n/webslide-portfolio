@@ -3,17 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio Presentation</title>
+    <title>Portfolio of a Document Controller</title>
     <meta name="description" content="Presentation created from Webslides">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
     <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
-    <link rel="stylesheet" type='text/css' media='all' href="https://unpkg.com/aos@2.3.0/dist/aos.css">
-    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333333">
   </head>
   <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="https://xamr0n.github.io" title="Home">Home</a></p>
+        <ul>
+          <li class="linkedin">
+            <a rel="external" href="https://www.linkedin.com/in/normanpc/" title="Linkedin">
+              <svg class="fa-linkedin">
+                <use xlink:href="#fa-linkedin"></use>
+              </svg>
+              <em>xamr0n</em>
+            </a>
+          </li>
+          <li class="instagram">
+            <a rel="external" href="https://instagram.com" title="Instagram">
+              <svg class="fa-instagram">
+                <use xlink:href="#fa-instagram"></use>
+              </svg>
+              <em>@normax.pc</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
     <main role="main">
       <article id="webslides" class="vertical">
 
@@ -21,7 +44,7 @@
       <section class="bg-black slide-top">
         <span class="background dark" style="background-image:url('static/images/man/mAn-fully.jpg')" alt="Profile Image"></span>
         <div class="wrap content-left">
-          <h1 class="text-landing zoomIn">PORTFOLIO PRESENTATION</h1>
+          <h2 class="text-landing zoomIn">PORTFOLIO PRESENTATION</h2>
           <h5 class="text-context fadeInUp">15 Years of Document Control</h5><br><br>
           <h5>
             <a class="button ghost" href="https://xamr0n.github.io/cv.html" title="MyCV">About Me</a>
@@ -74,7 +97,7 @@
                   <figure>
                     <img class="zoomIn" alt="Thumbnail " src="static/images/man/exp-2.jpg" style="border: 1px double #fff; box-shadow: 5px 5px 15px #000;">
                     <figcaption>
-                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRASTRUCTURE</h3>
+                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRA</h3>
                     </figcaption>
                   </figure>
                 </a>
@@ -84,7 +107,7 @@
                   <figure>
                     <img class="slideInLeft" alt="Thumbnail" src="static/images/man/exp-3.jpg" style="border: 1px double #fff; box-shadow: 5px 5px 15px #000;">
                     <figcaption>
-                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRASTRUCTURE</h3>
+                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRA</h3>
                     </figcaption>
                   </figure>
                 </a>
@@ -96,7 +119,7 @@
                   <figure>
                     <img class="slideInRight" alt="Thumbnail" src="static/images/man/exp-4.jpg" style="border: 1px double #fff; box-shadow: 5px 5px 15px #000;">
                     <figcaption>
-                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRASTRUCTURE</h3>
+                      <h3 style="text-shadow: 2px 2px 5px #999;">ROAD INFRA</h3>
                     </figcaption>
                   </figure>
                 </a>
@@ -172,7 +195,7 @@
     </main>
     <script src="static/js/webslides.js"></script>
     <script>
-      window.ws = new WebSlides({ autoslide: 10000 });
+      window.ws = new WebSlides({ autoslide: 5000 });
 
       AOS.init({
         duration: 3000,
